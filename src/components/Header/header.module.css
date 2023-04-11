@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  position: relative;
+  background: var(--gray-700);
+}
+
+.header img {
+  width: 12.6rem;
+  height: 4.8rem;
+}
+
+.newTaskForm {
+  position: absolute;
+  height: 5.4rem;
+  width: 100%;
+  max-width: 73.6rem;
+  display: flex;
+  gap: .8rem;
+  bottom: calc(-5.4rem / 2)
+}
+
+.newTaskForm input {
+  height: 100%;
+  flex: 1;
+  border-radius: 8px;
+  padding: 0 1.6rem;
+  background: var(--gray-500);
+  border: transparent;
+  color: var(--gray-100);
+}
+
+.newTaskForm input::placeholder {
+  color: var(--gray-300);
+}
+
+
+.newTaskForm button {
+  height: 100%;
+  color: var(--gray-100);
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding: 0 1.6rem;
+  background: var(--blue-dark);
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+}
+
+.newTaskForm button svg {
+  font-weight: bold;
+  margin-top: .2rem;
+}
